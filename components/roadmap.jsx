@@ -9,8 +9,8 @@ const RoadMap = () => {
                 </Text>
             </Center>
 
-            <SimpleGrid mt='67px' columns={2} spacing='60px'>
-                <Box py='40px' px='60px' w='100%' h='254px' bgColor='#3A1244' borderRadius='14px'>
+            <SimpleGrid mt='67px' columns={{base:1,md:2,lg:2,xl:2,'2xl':2}} spacing='60px'>
+                <Box py={{base:'20px',md:'20px',lg:'20px',xl:'40px','2xl':'40px'}} px={{base:'20px',md:'20px',lg:'40px',xl:'60px','2xl':'60px'}} w='100%' h={{base:'424px',md:'324px',lg:'254px',xl:'254px','2xl':'254px'}} bgColor='#3A1244' borderRadius='14px'>
                     <Flex direction='row' spacing={'30px'} alignContent='center'>
                         <Stack>
                             <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -60,7 +60,7 @@ const RoadMap = () => {
                         <Text my='auto' ml='30px' fontSize={'26px'} fontWeight='400' color='#fff'>Launch our own crypto token for staking</Text>
                     </Flex>
                 </Box>
-                <Box mt='60px' py='40px' px='60px' w='100%' h='254px' bgColor='#3A1244' borderRadius='14px'>
+                <Box mt={{base:'0px',md:'60px'}} py={{base:'20px',md:'20px',lg:'20px',xl:'40px','2xl':'40px'}} px={{base:'20px',md:'20px',lg:'40px',xl:'60px','2xl':'60px'}} w='100%' h={{base:'424px',md:'324px',lg:'254px',xl:'254px','2xl':'254px'}} bgColor='#3A1244' borderRadius='14px'>
                     <Flex direction='row' spacing={'30px'} alignContent='center'>
                         <Stack>
                             <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -110,7 +110,7 @@ const RoadMap = () => {
                         <Text my='auto' ml='30px' fontSize={'26px'} fontWeight='400' color='#fff'>Launch our own crypto token for staking</Text>
                     </Flex>
                 </Box>
-                <Box py='40px' px='60px' w='100%' h='254px' bgColor='#3A1244' borderRadius='14px'>
+                <Box py={{base:'20px',md:'20px',lg:'20px',xl:'40px','2xl':'40px'}} px={{base:'20px',md:'20px',lg:'40px',xl:'60px','2xl':'60px'}} w='100%' h={{base:'424px',md:'324px',lg:'254px',xl:'254px','2xl':'254px'}} bgColor='#3A1244' borderRadius='14px'>
                     <Flex direction='row' spacing={'30px'} alignContent='center'>
                         <Stack>
                             <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -160,7 +160,7 @@ const RoadMap = () => {
                         <Text my='auto' ml='30px' fontSize={'26px'} fontWeight='400' color='#fff'>Launch our own crypto token for staking</Text>
                     </Flex>
                 </Box>
-                <Box mt='60px' py='40px' px='60px' w='100%' h='254px' bgColor='#3A1244' borderRadius='14px'>
+                <Box mt={{base:'0px',md:'60px'}} py={{base:'20px',md:'20px',lg:'20px',xl:'40px','2xl':'40px'}} px={{base:'20px',md:'20px',lg:'40px',xl:'60px','2xl':'60px'}} w='100%' h={{base:'424px',md:'324px',lg:'254px',xl:'254px','2xl':'254px'}} bgColor='#3A1244' borderRadius='14px'>
                     <Flex direction='row' spacing={'30px'} alignContent='center'>
                         <Stack>
                             <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">

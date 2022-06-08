@@ -9,11 +9,11 @@ const Mansion = () => {
                 </Text>
             </Center>
             <Box mt='123px'>
-                <Flex direction={'row'}>        
+                <Flex direction={{base:'column',md:'row',lg:'row',xl:'row','2xl':'row'}}>        
                     <Box>
                         <Image src='/g-content.png' w='100%' maxH='574px' alt='' />
                     </Box>
-                    <Box mx='auto' mt='40px'>
+                    <Box ml={{base:'10px',md:'20px',lg:'20px',xl:'60px','2xl':'60px'}} mx='auto'>
                         <Text fontSize='46px' fontWeight={'700'} color='#fff'>
                             *Coming Soon*
                         </Text>

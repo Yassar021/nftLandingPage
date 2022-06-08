@@ -2,15 +2,15 @@ const { Box, Flex, Image, HStack, Link, Text, Stack } = require("@chakra-ui/reac
 
 const Footer = () => {
     return(
-        <Box w='100%' h='193px' bgImage='/bg-footer.png' backgroundRepeat='no-repeat' bgSize='cover' px='120px' py='40px'>
-            <Flex direction='row' justifyContent={'space-between'}>
+        <Box w='100%' h={{base:'320px',md:'193px',lg:'193px',xl:'193px','2xl':'193px'}} bgImage='/bg-footer.png' backgroundRepeat='no-repeat' bgSize='cover' px={{base:'60px',md:'20px',lg:'40px',xl:'120px','2xl':'120px'}} py='40px'>
+            <Flex direction={{base:'column',md:'row',lg:'row',xl:'row','2xl':'row'}} justifyContent={'space-between'}>
                 <Box>
-                    <Image src='/logo.png' w='100%' h='87px' alt='logo' />
+                    <Image src='/logo.png' w='83.19px' h='87px' alt='logo' />
                 </Box>
-                <HStack spacing='72px'>
-                    <Link><Text fontSize={'20px'} fontWeight='500' color={'#DB24E2'}>Privacy</Text></Link>
-                    <Link><Text fontSize={'20px'} fontWeight='500' color={'#fff'}>Terms</Text></Link>
-                    <Link><Text fontSize={'20px'} fontWeight='500' color={'#fff'}>Contact Us</Text></Link>
+                <HStack spacing={{base:'20px',md:'72px',lg:'72px',xl:'72px','2xl':'72px'}} mb={{base:'50px',md:'0px',lg:'0px',xl:'0px','2xl':'0px'}} mt={{base:'50px',md:'0px',lg:'0px',xl:'0px','2xl':'0px'}}>
+                    <Link><Text fontSize={{base:'14px',md:'20px',lg:'20px',xl:'20px','2xl':'20px'}} fontWeight='500' color={'#DB24E2'}>Privacy</Text></Link>
+                    <Link><Text fontSize={{base:'14px',md:'20px',lg:'20px',xl:'20px','2xl':'20px'}} fontWeight='500' color={'#fff'}>Terms</Text></Link>
+                    <Link><Text fontSize={{base:'14px',md:'20px',lg:'20px',xl:'20px','2xl':'20px'}} fontWeight='500' color={'#fff'}>Contact Us</Text></Link>
                 </HStack>
 
                 <HStack spacing={'30px'}>

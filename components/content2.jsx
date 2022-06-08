@@ -3,17 +3,17 @@ const { Box, Center, Text, SimpleGrid, Image, Flex, Stack, Container, Button } =
 const Content2 = () => {
     return(
         <Box pb='152px'>
-            <Center>
+            <Center  textAlign={{base:'center'}}>
                 <Text fontSize={'46px'} fontWeight='700' color='#fff'>
                     ! Acre + 4000 Sq ft Of Land Metavarce House
                 </Text>
             </Center>
 
-            <SimpleGrid columns={3} spacing='44px' mt='44px'>
+            <SimpleGrid columns={{base:1,md:3,lg:3,xl:3,'2xl':3}} spacing='44px' mt='44px'>
                 <Box>
                     <Image src='/c-content.png' w='100%' maxH='488.62px' alt='' />
                 </Box>
-                <Box mt='120px'>
+                <Box mt={{base:'0px',md:'60px',lg:'120px',xl:'120px','2xl':'120px'}}>
                     <Image src='/d-content.png' w='100%' maxH='488.62px' alt='' />
                 </Box>
                 <Box>
@@ -120,7 +120,7 @@ const Content2 = () => {
             </Center>
 
             <Box mt='153px'>
-            <Flex direction={'row'} mt='152px'> 
+            <Flex direction={{base:'column-reverse',md:'row',lg:'row',xl:'row','2xl':'row'}} mt='152px'> 
                 <Box>
                     <Text fontSize='46px' fontWeight={'700'} color='#fff'>
                         1 acre + 4000 Square

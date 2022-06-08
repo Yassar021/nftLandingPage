@@ -3,11 +3,11 @@ import { Box, Button, Flex, HStack, Image, Spacer, Stack, Text } from "@chakra-u
 const Content =  () => {
     return( 
         <Box pb='152px'>
-            <Flex direction={'row'}>        
+            <Flex direction={{base:'column',md:'row',lg:'row',xl:'row','2xl':'row'}}>        
                 <Box>
                     <Image src='/a-content.png' w='100%' maxH='574px' alt='' />
                 </Box>
-                <Box mx='auto' mt='40px'>
+                <Box mx='auto'>
                     <Text fontSize='46px' fontWeight={'700'} color='#fff'>
                         1 cr of land mint price
                         3000 NFT’s
@@ -100,7 +100,7 @@ const Content =  () => {
                         </Button>
                 </Box>
             </Flex>
-            <Flex direction={'row'} mt='152px'> 
+            <Flex direction={{base:'column',md:'row',lg:'row',xl:'row','2xl':'row'}} mt='152px'> 
                 <Box mt='40px'>
                     <Text fontSize='46px' fontWeight={'700'} color='#fff'>
                         1 cr of land mint price
@@ -193,7 +193,7 @@ const Content =  () => {
                             Connect Wallet
                         </Button>
                 </Box>
-                <Box  mx='auto'>
+                <Box  mx='auto' mt={{base:'40px',md:'0px',lg:'0px',xl:'0px','2xl':'0px'}}>
                     <Image src='/b-content.png' w='100%' maxH='574px' alt='' />
                 </Box>
             </Flex>

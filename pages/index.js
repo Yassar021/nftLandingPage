@@ -15,7 +15,7 @@ const Index = () => {
         <title>NFT Marketplace</title>
       </Head>
     
-    <Box bgColor='#2C0F2F' px='120px' pt='80px'>
+    <Box bgColor='#2C0F2F' px={{base:'20px',md:'20px',lg:'40px',xl:'120px','2xl':'120px'}} pt='80px'>
       <Hero />
       <Content />
       <Content2 />
